@@ -23,3 +23,4 @@ Route::get('Servicios',[MenuController::class,'view_service']);
 Route::get('Galeria',[MenuController::class,'view_gallery']);
 Route::get('Registro',[MenuController::class,'view_registro']);
 Route::get('Tienda',[MenuController::class,'view_tienda']);
+Route::post('Guardar',[MenuController::class,'save']);

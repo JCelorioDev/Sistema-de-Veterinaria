@@ -95,27 +95,31 @@
     <div class="form_container ">
       <div class="row">
         <div class="col-md-8 col-sm-10 offset-md-4">
-          <form action="">
+          <form action="{{url('Guardar')}}" method="POST">
+            @csrf
             <div class="text-center">
               <h3>
-                Contact Us
+                Contacto
               </h3>
             </div>
             <div>
-              <input type="text" placeholder="Name" class="pt-3">
+              <input type="text" placeholder="Nombres" name="nombre" class="pt-3">
             </div>
             <div>
-              <input type=" text" placeholder="Pone Number">
+              <input type="text" placeholder="Apellidos" name="ape">
             </div>
             <div>
-              <input type="email" placeholder="Email">
+              <input type=" text" placeholder="Número de Télefono" name="tlf">
             </div>
             <div>
-              <input type="text" class="message-box" placeholder="Message">
+              <input type="email" placeholder="Correo Electrónico" name="correo">
+            </div>
+            <div>
+              <input type="text" class="message-box" placeholder="Mensaje" name="msj">
             </div>
             <div class="d-flex justify-content-center">
-              <button>
-                SEND
+              <button type="submit">
+                Enviar
               </button>
             </div>
           </form>
