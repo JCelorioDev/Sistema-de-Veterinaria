@@ -16,19 +16,16 @@
           <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
             <ul class="navbar-nav  ">
               <li class="nav-item">
-                <a class="nav-link" href="service">Servicios</a>
+                <a class="nav-link" href="{{url('Servicios')}}">Servicios</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="pet.html">Galería</a>
+                <a class="nav-link" href="{{url('Galeria')}}">Galería</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="clinic.html">Registro</a>
+                <a class="nav-link" href="{{url('Registro')}}">Registro</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contacto</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="buy.html">Tienda</a>
+                <a class="nav-link" href="{{url('Tienda')}}">Tienda</a>
               </li>
             </ul>
             <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">

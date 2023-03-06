@@ -49,23 +49,20 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
               <ul class="navbar-nav  ">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{url('clinica')}}">Servicios</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="service.html">service </a>
+                  <a class="nav-link" href="{{url('galeria')}}">Galería</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="pet.html">Pet's gallery </a>
+                  <a class="nav-link" href="clinic.html">Registro</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="clinic.html"> clinic</a>
+                  <a class="nav-link" href="contact.html">Contacto</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="buy.html"> Buy now </a>
+                  <a class="nav-link" href="buy.html">Tienda</a>
                 </li>
               </ul>
               <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MenuController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,4 +18,8 @@ Route::get('/', function () {
     return view('app');
 });
 
-
+Route::get('Principal',[MenuController::class,'view_principal']);
+Route::get('Servicios',[MenuController::class,'view_service']);
+Route::get('Galeria',[MenuController::class,'view_gallery']);
+Route::get('Registro',[MenuController::class,'view_registro']);
+Route::get('Tienda',[MenuController::class,'view_tienda']);
