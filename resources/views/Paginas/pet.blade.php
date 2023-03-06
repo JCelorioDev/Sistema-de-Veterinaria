@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Petology</title>
+  <title>Amigos Peludos</title>
 
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css"
@@ -35,10 +35,10 @@
     <header class="header_section">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="{{asset('Principal')}}">
             <img src="images/logo.png" alt="">
             <span>
-              Petology
+              Amigos Peludos
             </span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -50,19 +50,16 @@
             <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
               <ul class="navbar-nav  ">
                 <li class="nav-item">
-                  <a class="nav-link" href="{{url('clinica')}}">Servicios</a>
+                  <a class="nav-link" href="{{url('Servicios')}}">Servicios</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="{{url('galeria')}}">Galería</a>
+                  <a class="nav-link" href="{{url('Galeria')}}">Galería</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="clinic.html">Registro</a>
+                  <a class="nav-link" href="{{url('Registro')}}">Registro</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contacto</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="buy.html">Tienda</a>
+                  <a class="nav-link" href="{{url('Tienda')}}">Tienda</a>
                 </li>
               </ul>
               <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
@@ -71,7 +68,7 @@
             </div>
             <div class="quote_btn-container  d-flex justify-content-center">
               <a href="">
-                Call: +01 1234567890
+                Celular: +593 0993854928
               </a>
             </div>
           </div>
@@ -85,24 +82,24 @@
   <section class="gallery-section layout_padding">
     <div class="container">
       <h2>
-        Our Gallery
+        Nuestra Galería
       </h2>
     </div>
     <div class="container ">
       <div class="img_box box-1">
-        <img src="images/g-1.png" alt="">
+        <img src="{{asset('images/medicine-5003631_960_720.jpg')}}" alt="perro,gatos,animales">
       </div>
       <div class="img_box box-2">
-        <img src="images/g-2.png" alt="">
+        <img src="{{asset('images/product-5b55f04ccfd0f.[1600].jpeg')}}" alt="perro,gatos,animales">
       </div>
       <div class="img_box box-3">
-        <img src="images/g-3.png" alt="">
+        <img src="{{asset('images/Veterinaria-cuenca-ecuador-Austrovet-emergencia-urgencia-atropello-mascotas-amigos-parte-de-la-familia-perriotos-gatitos-salud0001-1024x683.jpg')}}" alt="perros,gatos,animales">
       </div>
       <div class="img_box box-4">
-        <img src="images/g-4.png" alt="">
+        <img src="{{asset('images/6e945dce6844a09c2cd9901dc261e880.jpg')}}" alt="perros,gatos,animales">
       </div>
       <div class="img_box box-5">
-        <img src="images/g-5.png" alt="">
+        <img src="{{asset('images/20210224104801simulador1.jpg')}}" alt="perros,gatos,animales">
       </div>
     </div>
   </section>
@@ -122,7 +119,7 @@
             </div>
             <div class="detail-box">
               <p>
-                Location
+                Localización
               </p>
             </div>
           </div>
@@ -134,7 +131,7 @@
             </div>
             <div class="detail-box">
               <p>
-                +02 1234567890
+                +593 0993854928
               </p>
             </div>
           </div>
@@ -146,7 +143,7 @@
             </div>
             <div class="detail-box">
               <p>
-                demo@gmail.com
+                amigos_peludos@gmail.com
               </p>
             </div>
           </div>
@@ -160,8 +157,7 @@
   <!-- footer section -->
   <section class="container-fluid footer_section">
     <p>
-      &copy; 2019 All Rights Reserved By
-      <a href="https://html.design/">Free Html Templates</a>
+      &copy; 2023 Amigos peludos - Todos los derechos reservados.
     </p>
   </section>
   <!-- footer section -->
