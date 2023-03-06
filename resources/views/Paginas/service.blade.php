@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Petology</title>
+  <title>Amigos Peludos</title>
 
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css"
@@ -35,10 +35,10 @@
     <header class="header_section">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="{{url('Principal')}}">
             <img src="images/logo.png" alt="">
             <span>
-              Petology
+              Amigos Peludos
             </span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -49,23 +49,17 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
               <ul class="navbar-nav  ">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{url('Servicios')}}">Servicios</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="service.html">service </a>
+                  <a class="nav-link" href="{{url('Galeria')}}">Galería</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="pet.html">Pet's gallery </a>
+                  <a class="nav-link" href="{{url('Registro')}}">Registro</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="clinic.html"> clinic</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="buy.html"> Buy now </a>
+                  <a class="nav-link" href="{{url('Tienda')}}">Tienda</a>
                 </li>
               </ul>
               <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
@@ -74,7 +68,7 @@
             </div>
             <div class="quote_btn-container  d-flex justify-content-center">
               <a href="">
-                Call: +01 1234567890
+                Celular: +593 0993854928
               </a>
             </div>
           </div>
@@ -90,7 +84,7 @@
       <div class="row">
         <div class="col-md-6 offset-md-2">
           <h2 class="custom_heading">
-            Our <span>Services</span>
+            Nuestros <span>Servicios</span>
           </h2>
           <div class="container layout_padding2">
             <div class="row">
@@ -100,11 +94,10 @@
                 </div>
                 <div class="detail_box">
                   <h6>
-                    Pet Care
+                    Vacunación
                   </h6>
                   <p>
-                    onsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                    enim ad minim veniam, quis nostrud exe
+                    Brindamos todas las vacunas posibles para tu mascota.
                   </p>
                 </div>
               </div>
@@ -114,11 +107,10 @@
                 </div>
                 <div class="detail_box">
                   <h6>
-                    Pet Hotel
+                    Spa
                   </h6>
                   <p>
-                    onsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                    enim ad minim veniam, quis nostrud exe
+                    Contamos con un SPA de alta generación para tu mascota la cuales no sufren ni se estresán.
                   </p>
                 </div>
               </div>
@@ -128,11 +120,10 @@
                 </div>
                 <div class="detail_box">
                   <h6>
-                    Emergency
+                    Urgencias Quirúrjicas
                   </h6>
                   <p>
-                    onsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                    enim ad minim veniam, quis nostrud exe
+                    Hacemos cualquier tipo de cirujía para tu mascota ya sea altamente peligrosa contamos con los mejores especialista en cada areas y con las mejores herramientas que tu mascota tiene que tener.
                   </p>
                 </div>
               </div>
@@ -140,7 +131,7 @@
           </div>
           <div>
             <a href="">
-              Read More
+              Leer más
             </a>
           </div>
         </div>
@@ -166,7 +157,7 @@
             </div>
             <div class="detail-box">
               <p>
-                Location
+                Localización
               </p>
             </div>
           </div>
@@ -178,7 +169,7 @@
             </div>
             <div class="detail-box">
               <p>
-                +02 1234567890
+                + 593 0993854928
               </p>
             </div>
           </div>
@@ -190,7 +181,7 @@
             </div>
             <div class="detail-box">
               <p>
-                demo@gmail.com
+                amigos_peludos@gmail.com
               </p>
             </div>
           </div>
@@ -204,8 +195,7 @@
   <!-- footer section -->
   <section class="container-fluid footer_section">
     <p>
-      &copy; 2019 All Rights Reserved By
-      <a href="https://html.design/">Free Html Templates</a>
+      &copy; 2023 Amigos peludos - Todos los derechos reservados.
     </p>
   </section>
   <!-- footer section -->

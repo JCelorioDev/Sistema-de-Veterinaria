@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('app');
+    return view('Paginas.app');
 });
 
 Route::get('Principal',[MenuController::class,'view_principal']);
