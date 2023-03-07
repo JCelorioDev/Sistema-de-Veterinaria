@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Petology</title>
+  <title>Amigos Peludos</title>
 
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css"
@@ -38,7 +38,7 @@
           <a class="navbar-brand" href="index.html">
             <img src="images/logo.png" alt="">
             <span>
-              Petology
+              Amigos Peludos
             </span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -49,23 +49,17 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
               <ul class="navbar-nav  ">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{url('Servicios')}}">Servicios</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="service.html">service </a>
+                  <a class="nav-link" href="{{url('Galeria')}}">Galería</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="pet.html">Pet's gallery </a>
+                  <a class="nav-link" href="{{url('Registro')}}">Registro</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="clinic.html"> clinic</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="buy.html"> Buy now </a>
+                  <a class="nav-link" href="{{url('Tienda')}}">Tienda</a>
                 </li>
               </ul>
               <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
@@ -74,7 +68,7 @@
             </div>
             <div class="quote_btn-container  d-flex justify-content-center">
               <a href="">
-                Call: +01 1234567890
+                Celular: +593 0993854928
               </a>
             </div>
           </div>
@@ -90,15 +84,19 @@
   <section class="buy_section layout_padding">
     <div class="container">
       <h2>
-        You Can Buy Pet From Our Clinic
+        Puedes comprar mascota en nuestra clínica.
       </h2>
       <p>
-        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        <h2>Requísitos:</h2>
+        <span style='font-size:20px;'>&#11088; Ser responsable</span><br>
+        <span style='font-size:20px;'>&#11088; Ser mayor de edad</span><br>
+        <span style='font-size:20px;'>&#11088; Contar con un trabajo seguro</span><br>
+        <span style='font-size:20px;'>&#11088; Hacerse responsable con las vacunas</span><br>
+        <span style='font-size:20px;'>&#11088; Entrevista psicológica</span><br>
       </p>
       <div class="d-flex justify-content-center">
         <a href="">
-          Buy Now
+          Comprar ahora!
         </a>
       </div>
     </div>
@@ -110,13 +108,13 @@
   <section class="client_section layout_padding-bottom">
     <div class="container">
       <h2 class="custom_heading text-center">
-        What Say Our
+        Que dicen nuestros
         <span>
-          clients
+          Clientes
         </span>
       </h2>
       <p class="text-center">
-        orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut la
+        En este apartado es para darte a conocer la experiencia de nuestros clientes con respectiva compra.
       </p>
       <div id="carouselExample2Indicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -129,20 +127,14 @@
             <div class="layout_padding2 pl-100">
               <div class="client_container ">
                 <div class="img_box">
-                  <img src="images/client.jpg" alt="">
+                  <img style="width: 200px; height: 200px;" src="{{asset('images/f804x452-194651_246584_12.jpg')}}" alt="">
                 </div>
                 <div class="detail_box">
                   <h5>
-                    Sandy Mark
+                    Jesus Moreira
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea
-                    commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                    Estoy muy feliz con mi nueva mascota que compre, gracias amigos peludos por hacer mi sueño realidad de tener un chihuahua.
                   </p>
                 </div>
               </div>
@@ -152,20 +144,14 @@
             <div class="layout_padding2 pl-100">
               <div class="client_container ">
                 <div class="img_box">
-                  <img src="images/client.jpg" alt="">
+                  <img style="width: 200px; height: 200px;" src="{{asset('images/bulldogfrances.jpg')}}" alt="">
                 </div>
                 <div class="detail_box">
                   <h5>
-                    Sandy Mark
+                    Jazmin Intriago
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea
-                    commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                    Mi hija esta muy feliz de haberle regalado su bulldog frances su felicidad es la mia, gracias a amigos peludos por hacerle realidad el sueño.
                   </p>
                 </div>
               </div>
@@ -175,20 +161,14 @@
             <div class="layout_padding2 pl-100">
               <div class="client_container ">
                 <div class="img_box">
-                  <img src="images/client.jpg" alt="">
+                  <img style="widows: 200px; height: 200px;" src="{{asset('images/1b84bbf64add4bb86fd9ff8c8d448696.jpg')}}" alt="">
                 </div>
                 <div class="detail_box">
                   <h5>
-                    Sandy Mark
+                    Marco Aveiga
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea
-                    commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                    Compre un pitbull americano pequeño y estoy contento de la compra ya que siempre quize uno que fuera 100% de la raza ahora nos llevamos muy bien y espero verlo crecer.
                   </p>
                 </div>
               </div>
@@ -216,7 +196,7 @@
             </div>
             <div class="detail-box">
               <p>
-                Location
+                Localización
               </p>
             </div>
           </div>
@@ -228,7 +208,7 @@
             </div>
             <div class="detail-box">
               <p>
-                +02 1234567890
+                +593 0993854928
               </p>
             </div>
           </div>
@@ -240,7 +220,7 @@
             </div>
             <div class="detail-box">
               <p>
-                demo@gmail.com
+                amigos_peludos@gmail.com
               </p>
             </div>
           </div>
@@ -254,8 +234,7 @@
   <!-- footer section -->
   <section class="container-fluid footer_section">
     <p>
-      &copy; 2019 All Rights Reserved By
-      <a href="https://html.design/">Free Html Templates</a>
+      &copy; 2023 Amigos peludos - Todos los derechos reservados.
     </p>
   </section>
   <!-- footer section -->
